@@ -1,0 +1,172 @@
+{% extends 'myapp/master.html' %}
+
+{% block title %}home page{% endblock %}
+{% load static %}
+
+{% block content %}
+ <!-- Header-->
+ <header class="bg-dark py-5">
+    <div class="container px-4 px-lg-5 my-5">
+      <div class="text-center text-white">
+        <h1 class="display-4 fw-bolder">Top Series</h1>
+        <p class="lead fw-normal text-white-50 mb-0">
+          With this story and templates
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <div class="card text-center">
+    <div class="card-body">
+      <h5 class="card-title" style="color:black;">Special title treatment</h5>
+      <p class="card-text" style="color: black;">
+        With supporting text below as a natural lead-in to additional
+        content.
+      </p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <!-- Section-->
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="{% static 'images/breaking bad.jpg' %}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="{% static 'images/dark.jpg' %}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="{% static 'images/moneyhiest.jpeg' %}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="{% static 'images/strangerthing.jpeg' %}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="{% static 'images/theboys.jpg' %}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="{% static 'images/vikings.jpg' %}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3 class="text-center mb-4 pb-2 text-primary fw-bold">FAQ</h3>
+    <p class="text-center mb-5">
+      Find the answers for the most frequently asked questions below
+    </p>
+  
+    <div class="row" style="margin-left: 20px; margin-right: 20px;">
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h6 class="mb-3 text-primary"><i class="far fa-paper-plane text-primary pe-2"></i> A simple
+          question?</h6>
+        <p>
+          <strong><u>Absolutely!</u></strong> We work with top payment companies which guarantees
+          your
+          safety and
+          security. All billing information is stored on our payment processing partner.
+        </p>
+      </div>
+  
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h6 class="mb-3 text-primary"><i class="fas fa-pen-alt text-primary pe-2"></i> A question
+          that
+          is longer then the previous one?</h6>
+        <p>
+          <strong><u>Yes, it is possible!</u></strong> You can cancel your subscription anytime in
+          your
+          account. Once the subscription is
+          cancelled, you will not be charged next month.
+        </p>
+      </div>
+  
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h6 class="mb-3 text-primary"><i class="fas fa-user text-primary pe-2"></i> A simple
+          question?
+        </h6>
+        <p>
+          Currently, we only offer monthly subscription. You can upgrade or cancel your monthly
+          account at any time with no further obligation.
+        </p>
+      </div>
+  
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h6 class="mb-3 text-primary"><i class="fas fa-rocket text-primary pe-2"></i> A simple
+          question?
+        </h6>
+        <p>
+          Yes. Go to the billing section of your dashboard and update your payment information.
+        </p>
+      </div>
+  
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h6 class="mb-3 text-primary"><i class="fas fa-home text-primary pe-2"></i> A simple
+          question?
+        </h6>
+        <p><strong><u>Unfortunately no</u>.</strong> We do not issue full or partial refunds for any
+          reason.</p>
+      </div>
+  
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h6 class="mb-3 text-primary"><i class="fas fa-book-open text-primary pe-2"></i> Another
+          question that is longer than usual</h6>
+        <p>
+          Of course! We're happy to offer a free plan to anyone who wants to try our service.
+        </p>
+      </div>
+    </div>
+  </section>
+  <div class="card text-center">
+    <div class="card-header">Featured</div>
+    <div class="card-body">
+      <h5 class="card-title" style="color:black;">Special title treatment</h5>
+      <p class="card-text" style="color: black;">
+        With supporting text below as a natural lead-in to additional
+        content.
+      </p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+{% endblock %}
